@@ -1,0 +1,36 @@
+{
+  "audition_id": "female-british-v2",
+  "locale": "en-GB",
+  "models": [
+    {
+      "id": "kokoro",
+      "name": "Kokoro-82M",
+      "voice": "Emma · female British English",
+      "voice_id": "bf_emma-en-gb",
+      "preset": "bf_emma",
+      "language": "en-gb",
+      "source": "https://github.com/thewh1teagle/kokoro-onnx"
+    },
+    {
+      "id": "pocket",
+      "name": "Pocket TTS",
+      "voice": "Anna · female British English",
+      "voice_id": "anna-vctk-p228-en-gb",
+      "preset": "anna",
+      "speaker": "VCTK p228",
+      "source": "https://github.com/kyutai-labs/pocket-tts"
+    },
+    {
+      "id": "chatterbox",
+      "name": "Chatterbox Nano",
+      "voice": "VCTK p228 · female British English",
+      "voice_id": "vctk-p228-reference-en-gb",
+      "reference": ".tts-work/voices/vctk-p228-023-enhanced.wav",
+      "speaker": "VCTK p228",
+      "source": "https://github.com/resemble-ai/chatterbox"
+    }
+  ],
+  "selected_model": "kokoro",
+  "selected_voice": "bf_emma",
+  "selected_voice_config": "content/audio-voice.json"
+}

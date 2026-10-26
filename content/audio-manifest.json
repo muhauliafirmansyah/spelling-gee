@@ -1,0 +1,1626 @@
+{
+  "schema_version": 1,
+  "voice": {
+    "schema_version": 1,
+    "status": "selected",
+    "selected_on": "2026-10-20",
+    "engine": "kokoro",
+    "model": "Kokoro-82M",
+    "model_version": "v1.0",
+    "runtime": {
+      "package": "kokoro-onnx",
+      "version": "0.6.1"
+    },
+    "voice": "bf_emma",
+    "voice_name": "Emma",
+    "gender": "female",
+    "locale": "en-GB",
+    "phonemizer_language": "en-gb",
+    "speed": 1,
+    "device": "cpu",
+    "model_files": {
+      "kokoro-v1.0.onnx": {
+        "sha256": "beb0d1848dee9a49da392cc3df26958d46cfa35d321edf434f52949153f0df3a",
+        "bytes": 325505369
+      },
+      "voices-v1.0.bin": {
+        "sha256": "bca610b8308e8d99f32e6fe4197e7ec01679264efed0cac9140fe9c29f1fbf7d",
+        "bytes": 28214398
+      }
+    },
+    "word_list": "content/school-words.csv",
+    "audio_fields": [
+      "word",
+      "context_sentence"
+    ]
+  },
+  "format": "wav",
+  "review_status": "awaiting_parent_pronunciation_review",
+  "clips": {
+    "cash:word": {
+      "path": "audio/emma/cash-word.wav",
+      "text": "cash",
+      "sha256": "2e9dba519341e295003bcd34efff310b30ad60ca3db9bbbe251f371e24a38e64",
+      "duration": 0.619,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "cash:sentence": {
+      "path": "audio/emma/cash-sentence.wav",
+      "text": "I paid for the toy with cash instead of using a card.",
+      "sha256": "b575b6f8ec1f66380b4b8a0a39393a8da08d9dbb63737a6e4943e2207bf7ce01",
+      "duration": 3.007,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "chair:word": {
+      "path": "audio/emma/chair-word.wav",
+      "text": "chair",
+      "sha256": "083945b93f479519656edae2983d358b10a3fa4f0e6ac9e2c5680779ba095474",
+      "duration": 0.529,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "chair:sentence": {
+      "path": "audio/emma/chair-sentence.wav",
+      "text": "Please put the books on the chair beside the window.",
+      "sha256": "51094394f5bda178b23f8fd1439fd60c8db307a5e02465fc09c4791d79d585d6",
+      "duration": 2.676,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "queen:word": {
+      "path": "audio/emma/queen-word.wav",
+      "text": "queen",
+      "sha256": "1a869f031b827e43a7257ca6cd44a46a44a1e4cb5730b99c0cb9ae2163a2cb8a",
+      "duration": 0.64,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": true
+    },
+    "queen:sentence": {
+      "path": "audio/emma/queen-sentence.wav",
+      "text": "The queen waved to the children during the parade.",
+      "sha256": "24f223867d2f78da6ca82a2b4d64e37f482e8febdd858560afa4d890916a4598",
+      "duration": 2.559,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": true
+    },
+    "parent:word": {
+      "path": "audio/emma/parent-word.wav",
+      "text": "parent",
+      "sha256": "769efc5647145e2b6069bba275ad61e9eb2893253ef9b912625d4298a9f0a8e6",
+      "duration": 0.747,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": true
+    },
+    "parent:sentence": {
+      "path": "audio/emma/parent-sentence.wav",
+      "text": "Being a parent is a big responsibility.",
+      "sha256": "c617436b48afacc37fd2661d8bf0e871907c2e1813af508feaf4e2c5cdd50e15",
+      "duration": 2.676,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": true
+    },
+    "carpet:word": {
+      "path": "audio/emma/carpet-word.wav",
+      "text": "carpet",
+      "sha256": "0ffc9ef47abb02ffa86c122229be20de023c4cb3d9b7ae047e45e0c6bd87b781",
+      "duration": 0.725,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "carpet:sentence": {
+      "path": "audio/emma/carpet-sentence.wav",
+      "text": "There is a fluffy carpet on the floor.",
+      "sha256": "0e9070dbef908dcdb71a3561b366e616ee42fb0324228042441f9481bdb55378",
+      "duration": 2.303,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "feather:word": {
+      "path": "audio/emma/feather-word.wav",
+      "text": "feather",
+      "sha256": "08ca7ad7f2c53114313ea9f50a9c013695d2e4bd6e2c5dd306b5d2eda31f7db8",
+      "duration": 0.619,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": true
+    },
+    "feather:sentence": {
+      "path": "audio/emma/feather-sentence.wav",
+      "text": "I found a soft feather on the ground near the bird's nest.",
+      "sha256": "39bcbb9568be81d46c7f57fed044201b154a8bd4a742a9e16760db411eeb8ad9",
+      "duration": 2.965,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": true
+    },
+    "doctor:word": {
+      "path": "audio/emma/doctor-word.wav",
+      "text": "doctor",
+      "sha256": "a9f4b4eebe330be61c33a66ad9cf554d9e60af826ca5ce6a8807415bc5a1a55f",
+      "duration": 0.661,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "doctor:sentence": {
+      "path": "audio/emma/doctor-sentence.wav",
+      "text": "If you don't feel well, you should see a doctor.",
+      "sha256": "76a690929028d782980e65bcdebeb0a9c99fa64a3a7cd15eecee7ad1f775f0ef",
+      "duration": 2.357,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "roast:word": {
+      "path": "audio/emma/roast-word.wav",
+      "text": "roast",
+      "sha256": "fa8cd020e0124e36d71b8b45ee4cc5cc552a4f2830c2ea63f6b6b948e64b3a0d",
+      "duration": 0.661,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "roast:sentence": {
+      "path": "audio/emma/roast-sentence.wav",
+      "text": "We will have roast chicken for dinner.",
+      "sha256": "d4763e22ec18e1271f75a6983c5133524455d1b82940584d24c566c807b243d5",
+      "duration": 1.878,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "mailbox:word": {
+      "path": "audio/emma/mailbox-word.wav",
+      "text": "mailbox",
+      "sha256": "f87b44e963a27b088da7236df68204ecad07f29126d52073b58fb4186750158a",
+      "duration": 0.875,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "mailbox:sentence": {
+      "path": "audio/emma/mailbox-sentence.wav",
+      "text": "The mailbox was empty because the postman hadn't been.",
+      "sha256": "55ae4bb971b454b142be524760a4ba0a0615899ed90380fe739dde3730581144",
+      "duration": 3.177,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "peaceful:word": {
+      "path": "audio/emma/peaceful-word.wav",
+      "text": "peaceful",
+      "sha256": "dd8ec8c8973d3e9f366ff3cb7ad12ce15cb0557f1b13e0f345c3aeb20b91b43d",
+      "duration": 0.704,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "peaceful:sentence": {
+      "path": "audio/emma/peaceful-sentence.wav",
+      "text": "I like living in the countryside because it is peaceful.",
+      "sha256": "3eb7d8b66361d8c89ab9acbc2d910d5f5ad979d6c84a0fe8fc9111899fd9b043",
+      "duration": 2.953,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "elbow:word": {
+      "path": "audio/emma/elbow-word.wav",
+      "text": "elbow",
+      "sha256": "57d8df26573a1f8976263b953764f76404a1f232ac9b476e521d8b00644282e2",
+      "duration": 0.64,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "elbow:sentence": {
+      "path": "audio/emma/elbow-sentence.wav",
+      "text": "I hurt my elbow when I fell.",
+      "sha256": "a0a2399cbf5263814b900e997d49b1d0398bca4d6df59633c95ef37a993138f5",
+      "duration": 2.091,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "street:word": {
+      "path": "audio/emma/street-word.wav",
+      "text": "street",
+      "sha256": "27be01d7d7675a9cbd059af7fad5640ba9309d6ec95061f51cee1d4e52ab8e1d",
+      "duration": 0.64,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "street:sentence": {
+      "path": "audio/emma/street-sentence.wav",
+      "text": "I live on the next street.",
+      "sha256": "18f76caae882b6b1c5f57756f16515b0f5aa23856063786d2fc504eee487b65b",
+      "duration": 1.713,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "blueberry:word": {
+      "path": "audio/emma/blueberry-word.wav",
+      "text": "blueberry",
+      "sha256": "8967bacbf599bd98b937658e7c9bc56a5f0021cb38c5decedb343dd9aec6e8e6",
+      "duration": 0.789,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "blueberry:sentence": {
+      "path": "audio/emma/blueberry-sentence.wav",
+      "text": "I'd like some blueberry ice-cream.",
+      "sha256": "016bf9047682023d2f98337e81e0ebda425426bb103f4a473838e7898b61e4e8",
+      "duration": 2.071,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "skinny:word": {
+      "path": "audio/emma/skinny-word.wav",
+      "text": "skinny",
+      "sha256": "86de25d6dfff5e9e64608cf3d474983e50bf954f9f719c0c24e2b53c11913493",
+      "duration": 0.661,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "skinny:sentence": {
+      "path": "audio/emma/skinny-sentence.wav",
+      "text": "The kitten was very skinny when we first found it.",
+      "sha256": "661c88486c5935117c17e0202b9a49730acb03ad48adf20d2396bc0c51b8e6aa",
+      "duration": 2.613,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "syrup:word": {
+      "path": "audio/emma/syrup-word.wav",
+      "text": "syrup",
+      "sha256": "d20f88e9a02c881e4c33c85137a1152e66f9dd82dadbe1a459c8b740cbe70c38",
+      "duration": 0.604,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": true
+    },
+    "syrup:sentence": {
+      "path": "audio/emma/syrup-sentence.wav",
+      "text": "Maple syrup tastes great on waffles.",
+      "sha256": "2a0358215f14199038c5fb2cff0eb70564413da152145cbe61b1b73bc538be7f",
+      "duration": 2.527,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": true
+    },
+    "gymnast:word": {
+      "path": "audio/emma/gymnast-word.wav",
+      "text": "gymnast",
+      "sha256": "f545835a5d4c3986b025340f8184b75c1593ccfb5b780b92e704b6484185d451",
+      "duration": 0.832,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "gymnast:sentence": {
+      "path": "audio/emma/gymnast-sentence.wav",
+      "text": "A gymnast has to be in very good shape.",
+      "sha256": "b1b52e24c29d92944413bf715191db2a8e2fd994098ac1a9625bc19330679506",
+      "duration": 2.505,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "joke:word": {
+      "path": "audio/emma/joke-word.wav",
+      "text": "joke",
+      "sha256": "901a1a6511946f0a101dc7dda8e9ffeccfd5a6d6a81baa8c6f8c189d40a6c428",
+      "duration": 0.597,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "joke:sentence": {
+      "path": "audio/emma/joke-sentence.wav",
+      "text": "I didn't laugh at her joke because it wasn't funny.",
+      "sha256": "7edab727a289a5da9e113afa723b2a1fd2c801954626f10fbdfa8b101ba78967",
+      "duration": 2.687,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "rubber:word": {
+      "path": "audio/emma/rubber-word.wav",
+      "text": "rubber",
+      "sha256": "ea3b5dd8ba1a680d1d34919ac11c18b884cb6ed0fae946f73cd95c4516a0a040",
+      "duration": 0.533,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": true
+    },
+    "rubber:sentence": {
+      "path": "audio/emma/rubber-sentence.wav",
+      "text": "Erasers are made of rubber.",
+      "sha256": "59602f780b4a579769d90dcd4a13f02ee2db96d0634add411f14637e8f092378",
+      "duration": 1.824,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": true
+    },
+    "escape:word": {
+      "path": "audio/emma/escape-word.wav",
+      "text": "escape",
+      "sha256": "bbb4c10a35676020c99e6badd93968e9213966a4ef071f679edba1a9f29a695f",
+      "duration": 0.704,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "escape:sentence": {
+      "path": "audio/emma/escape-sentence.wav",
+      "text": "Our dog keeps trying to escape from the yard.",
+      "sha256": "95242205f9180039f64ae5ea8eb841fa136f5fa679f674ccaf2085af8d531084",
+      "duration": 2.633,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "chimpanzee:word": {
+      "path": "audio/emma/chimpanzee-word.wav",
+      "text": "chimpanzee",
+      "sha256": "322a06af25818ad1700134176e4a57ce3782a01d392f808e8718947ecb64dcab",
+      "duration": 1.131,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "chimpanzee:sentence": {
+      "path": "audio/emma/chimpanzee-sentence.wav",
+      "text": "A chimpanzee likes to climb trees.",
+      "sha256": "02a75f2339f4ad005f942442518a3c71cea0e51dc4a2967f273d1d0b2e20b13b",
+      "duration": 2.356,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "sofa:word": {
+      "path": "audio/emma/sofa-word.wav",
+      "text": "sofa",
+      "sha256": "e80419f9204c967bf68f6ed6ca9244f13b838e92e21e8e7888f12bb8f696876b",
+      "duration": 0.704,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "sofa:sentence": {
+      "path": "audio/emma/sofa-sentence.wav",
+      "text": "My father likes to rest on the sofa after dinner.",
+      "sha256": "85dec3ad7684846955cae647b5fa0846e3def062097f32893cf960a273375687",
+      "duration": 2.932,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "mouse:word": {
+      "path": "audio/emma/mouse-word.wav",
+      "text": "mouse",
+      "sha256": "ed473a1044de15e1e8de8cb01917cf1db914007d9d0f5fd755050d54738adbf2",
+      "duration": 0.64,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "mouse:sentence": {
+      "path": "audio/emma/mouse-sentence.wav",
+      "text": "A mouse ate my cheese.",
+      "sha256": "4d788997f2ef974674a7aec80a4adfcc559c163d3ac0b95d9dccb66957620f6a",
+      "duration": 1.814,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "shellfish:word": {
+      "path": "audio/emma/shellfish-word.wav",
+      "text": "shellfish",
+      "sha256": "17cbf2aaf02c92ee37651fc093dc4349acce5cc3f7a6165f499569fe751073a0",
+      "duration": 0.768,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "shellfish:sentence": {
+      "path": "audio/emma/shellfish-sentence.wav",
+      "text": "My cousin got very sick from eating shellfish.",
+      "sha256": "ea2dcf805e2676c7bea8404b21b8ec81357b8eefc29eb12ee1ebab76d1205178",
+      "duration": 2.602,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "vacation:word": {
+      "path": "audio/emma/vacation-word.wav",
+      "text": "vacation",
+      "sha256": "6fa0b1874373636c7b33be7332f871ed8da37bebf48e9c62fd334d9d719d0140",
+      "duration": 1.003,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "vacation:sentence": {
+      "path": "audio/emma/vacation-sentence.wav",
+      "text": "I went to Thailand for my last vacation.",
+      "sha256": "6998b353ac683a2aa0cabea8b07dfb16dba9665a0c4b65ce1522aa8c0e3bfbf8",
+      "duration": 2.538,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "toothpaste:word": {
+      "path": "audio/emma/toothpaste-word.wav",
+      "text": "toothpaste",
+      "sha256": "997e1ebb9b638f123bde6b7980570c3b761213c72495003730056157c0617593",
+      "duration": 0.875,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "toothpaste:sentence": {
+      "path": "audio/emma/toothpaste-sentence.wav",
+      "text": "Some people don't like mint flavoured toothpaste.",
+      "sha256": "3c6cad46e46ff57e2a96fb44180240a3b910c498f89ba6c3b78cd77559c4240e",
+      "duration": 2.911,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "bottle:word": {
+      "path": "audio/emma/bottle-word.wav",
+      "text": "bottle",
+      "sha256": "3805919872947b2f172a89f5f7b7a096e850b947e3a19623bac1ccaa52e3ffc9",
+      "duration": 0.64,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "bottle:sentence": {
+      "path": "audio/emma/bottle-sentence.wav",
+      "text": "I want to drink a bottle of water.",
+      "sha256": "6eec8cb5423fdf9b2c803e35b875b11c7662c5b397518cd7eb3c1a54de18a71d",
+      "duration": 2.071,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "cherry:word": {
+      "path": "audio/emma/cherry-word.wav",
+      "text": "cherry",
+      "sha256": "ccfc2a0ab9fcfa328f91e9149625415c0127646a89e6c873676a3f117fee12ab",
+      "duration": 0.619,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "cherry:sentence": {
+      "path": "audio/emma/cherry-sentence.wav",
+      "text": "Cherry pie is my favourite dessert.",
+      "sha256": "348f1d808cc9bc4a534b528512614d262ec2b18f6431c955c4198ee096fd79d5",
+      "duration": 2.303,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "ocean:word": {
+      "path": "audio/emma/ocean-word.wav",
+      "text": "ocean",
+      "sha256": "6405e3c7fc3c3b332fe5dd8d57577c6828891f543959f86f3b5799c9dd6519bc",
+      "duration": 0.683,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": true
+    },
+    "ocean:sentence": {
+      "path": "audio/emma/ocean-sentence.wav",
+      "text": "The ocean is full of different kinds of fish.",
+      "sha256": "44a08eeaeafaa63a121c10825d3547c3635180449b92018d846cec1521ca1ac6",
+      "duration": 2.387,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": true
+    },
+    "glasses:word": {
+      "path": "audio/emma/glasses-word.wav",
+      "text": "glasses",
+      "sha256": "4efc22b55bda24acd87e42c31264f0a06179f79089d783647cdcfc0e63571ed4",
+      "duration": 0.768,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "glasses:sentence": {
+      "path": "audio/emma/glasses-sentence.wav",
+      "text": "I wear glasses to see the board clearly.",
+      "sha256": "93c0443a49b7b9dcb1ab5bf6cc2e05cbccf435829ef4bab03fdda4538f9fcdeb",
+      "duration": 2.377,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "fluffy:word": {
+      "path": "audio/emma/fluffy-word.wav",
+      "text": "fluffy",
+      "sha256": "7e5430df4897b05f4352330c68bd5ec1b3dabcd68d9523ce54d02ac2f8eb7768",
+      "duration": 0.704,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "fluffy:sentence": {
+      "path": "audio/emma/fluffy-sentence.wav",
+      "text": "The fluffy cat slept on my bed.",
+      "sha256": "aa73861b0c398fb30828fa948d8a0610628f5f9ed07c7fbfb2b192a3228fad3d",
+      "duration": 2.145,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "speakers:word": {
+      "path": "audio/emma/speakers-word.wav",
+      "text": "speakers",
+      "sha256": "f178990140b1bd4067fa702e878b46f1de9a31e45fe3509c0ae79bbc8714d748",
+      "duration": 0.811,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "speakers:sentence": {
+      "path": "audio/emma/speakers-sentence.wav",
+      "text": "Music came out of the speakers.",
+      "sha256": "d48dc1d3a4f65c1430393470c3a30a7fc69fff49e8e6ca96fb43448cfd519e2d",
+      "duration": 2.006,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "switch:word": {
+      "path": "audio/emma/switch-word.wav",
+      "text": "switch",
+      "sha256": "ed7194c36ddc5896f1645e168a6894f949f02e15a7a43242866bf10e46749d59",
+      "duration": 0.629,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "switch:sentence": {
+      "path": "audio/emma/switch-sentence.wav",
+      "text": "Press the switch to turn on the light.",
+      "sha256": "1b20c6e1c5a2bf1e6b75dc7da4e39ee5294dffc5baaea2f315ea1546c17bdf9f",
+      "duration": 2.135,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "quilt:word": {
+      "path": "audio/emma/quilt-word.wav",
+      "text": "quilt",
+      "sha256": "e73de048d5f163d2b98ca93eb11988ad545758476de09d46eda519dfed6b670a",
+      "duration": 0.604,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "quilt:sentence": {
+      "path": "audio/emma/quilt-sentence.wav",
+      "text": "Grandma covered me with a warm quilt when I went to bed.",
+      "sha256": "21e335d881dec3c384db3300484915287b61aa42513327e43ba363ac52e8035f",
+      "duration": 3.059,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "junkyard:word": {
+      "path": "audio/emma/junkyard-word.wav",
+      "text": "junkyard",
+      "sha256": "a9d01bbd23060b8862d9dcc04d6f7ba16b4e9d9549260c40ef31e0feb4c2d01b",
+      "duration": 0.853,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "junkyard:sentence": {
+      "path": "audio/emma/junkyard-sentence.wav",
+      "text": "Old cars and broken machines were piled up in the junkyard.",
+      "sha256": "419d6a1e7463849c79c6e472c8af98c7bf10556a1aa5c89fe70e6cf110649b6e",
+      "duration": 3.37,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "graceful:word": {
+      "path": "audio/emma/graceful-word.wav",
+      "text": "graceful",
+      "sha256": "e79602273a9d998cb9c2f6f4904db58853ab507ac829f7772eab92da5f92cd7e",
+      "duration": 0.789,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "graceful:sentence": {
+      "path": "audio/emma/graceful-sentence.wav",
+      "text": "The graceful dancer moved across the stage.",
+      "sha256": "9fbf5413fa03a3f70827e7731298568e135b4498c480625894dbbf65e80f054a",
+      "duration": 2.645,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "pickle:word": {
+      "path": "audio/emma/pickle-word.wav",
+      "text": "pickle",
+      "sha256": "250c55a7cd2cca7d90e8c9602507b1d91f92592ba5dfd02c52b4ebbfaa268175",
+      "duration": 0.619,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "pickle:sentence": {
+      "path": "audio/emma/pickle-sentence.wav",
+      "text": "My brother likes to put a crunchy pickle in his sandwich.",
+      "sha256": "53fc2fd3f0175bf3c5233a2cbe8448cb3d76923e1b344aab3bbcc82b76ec63f9",
+      "duration": 2.932,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "kayak:word": {
+      "path": "audio/emma/kayak-word.wav",
+      "text": "kayak",
+      "sha256": "bdc061a0e73980733dbded51e2df85ddfca70404e8bb8b02a07c66728fca1036",
+      "duration": 0.64,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "kayak:sentence": {
+      "path": "audio/emma/kayak-sentence.wav",
+      "text": "We used a kayak to paddle across the calm lake.",
+      "sha256": "c378d778ed80d252d3e7caf52f22777291859829fed75d5badcefb00e6b54461",
+      "duration": 2.73,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "weather:word": {
+      "path": "audio/emma/weather-word.wav",
+      "text": "weather",
+      "sha256": "a06853465a172a01251a90a57474b03ef2f00c301b2a0dab86903f7bc0a76ffa",
+      "duration": 0.64,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "weather:sentence": {
+      "path": "audio/emma/weather-sentence.wav",
+      "text": "The weather is sunny today.",
+      "sha256": "28746d408b16ef9ba7b141695f3766fe82c559cd81f6b33645baf9fdd5616ff9",
+      "duration": 1.804,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "might:word": {
+      "path": "audio/emma/might-word.wav",
+      "text": "might",
+      "sha256": "b91ed7b03047ca2814c5ac34808aa6c5d76f4049a19141e2d24d58c2474d4d29",
+      "duration": 0.619,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "might:sentence": {
+      "path": "audio/emma/might-sentence.wav",
+      "text": "It might rain this afternoon.",
+      "sha256": "0676adfc2fa5bbe906c247e9ddac71afe35b329b34b836a6e8546ecbe4674542",
+      "duration": 1.888,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "december:word": {
+      "path": "audio/emma/december-word.wav",
+      "text": "December",
+      "sha256": "f22ead25f4f9f0454e4ba8ab52f41768e705d369b7ca18f6b99572802eb917a6",
+      "duration": 0.789,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "december:sentence": {
+      "path": "audio/emma/december-sentence.wav",
+      "text": "December is the last month of the year.",
+      "sha256": "3cb5b465a33301bdc6fafe7d4cca8ecaf80adf029fd8f9afb237c07f119e9abc",
+      "duration": 2.387,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "teacher:word": {
+      "path": "audio/emma/teacher-word.wav",
+      "text": "teacher",
+      "sha256": "9da49a060e888a77186d950fe036be9f7bd0525d6f7952e480b85ceaac17ae26",
+      "duration": 0.704,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "teacher:sentence": {
+      "path": "audio/emma/teacher-sentence.wav",
+      "text": "Our teacher reads us a story.",
+      "sha256": "8ebed12682f12d2f1b980b4f9f8e93feb3895ebfce2b79d38aaf31fae91b19ed",
+      "duration": 2.037,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "dentist:word": {
+      "path": "audio/emma/dentist-word.wav",
+      "text": "dentist",
+      "sha256": "96144c06815aa9c96c0659049d41ed57bb0dee39d1768244ad74f16b3ac9d7c2",
+      "duration": 0.811,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "dentist:sentence": {
+      "path": "audio/emma/dentist-sentence.wav",
+      "text": "The dentist checked my teeth.",
+      "sha256": "537b9de9ebeb06721542de505680a8ab4f72878490fea217b0ff32d7ca9cd1ff",
+      "duration": 1.952,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "management:word": {
+      "path": "audio/emma/management-word.wav",
+      "text": "management",
+      "sha256": "afdb2e9072f348113c1476f303cd2e796e2f908c60040d93a4f68290c0ec7c4e",
+      "duration": 1.024,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "management:sentence": {
+      "path": "audio/emma/management-sentence.wav",
+      "text": "The school management arranged a meeting for parents.",
+      "sha256": "49c2622e31f77f78e67a6a8d65e9ae756f4bc7a0290eb3d2d3e14cd0c0ab4e8c",
+      "duration": 2.975,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "telephone:word": {
+      "path": "audio/emma/telephone-word.wav",
+      "text": "telephone",
+      "sha256": "dcf223676c5ec6de177da306f9ed135128057b14d2ff0e38a67229cd788fefb6",
+      "duration": 0.875,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "telephone:sentence": {
+      "path": "audio/emma/telephone-sentence.wav",
+      "text": "The telephone rang, so Dad answered it.",
+      "sha256": "d079949f5da0403f5c478ddaf373deefc3fd31e596c1697f4dfdc49f081b628a",
+      "duration": 2.474,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "jungle:word": {
+      "path": "audio/emma/jungle-word.wav",
+      "text": "jungle",
+      "sha256": "7c845fd610af46b313c01f10ce35336fde16cab35a823562f1d849eda4ec1b92",
+      "duration": 0.683,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "jungle:sentence": {
+      "path": "audio/emma/jungle-sentence.wav",
+      "text": "A monkey climbed a tree in the jungle.",
+      "sha256": "fdcc10ea99738a68ec32495c62068e593ba462ef302509c739e7dbdb5db2d522",
+      "duration": 2.218,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "seesaw:word": {
+      "path": "audio/emma/seesaw-word.wav",
+      "text": "seesaw",
+      "sha256": "7a77efd1270d69df52eff38a21a1bb22fb96cf9a7c84a0c7db08ad105a7526a8",
+      "duration": 0.747,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "seesaw:sentence": {
+      "path": "audio/emma/seesaw-sentence.wav",
+      "text": "We took turns playing on the seesaw.",
+      "sha256": "e59e1e960405929756a49034db2d09220d08326d11bed6c278c31d769a61ced3",
+      "duration": 2.251,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "throwing:word": {
+      "path": "audio/emma/throwing-word.wav",
+      "text": "throwing",
+      "sha256": "69f24397ebaa8afa2288bcafcabe3dbde7f6481ffc806e1a14051ebf2520ccef",
+      "duration": 0.683,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "throwing:sentence": {
+      "path": "audio/emma/throwing-sentence.wav",
+      "text": "She is throwing a ball to her friend.",
+      "sha256": "867dc3fed217c38ec8ef49e97a23e598fbb178c7c796daa89a8126af49f1ad37",
+      "duration": 2.175,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "swings:word": {
+      "path": "audio/emma/swings-word.wav",
+      "text": "swings",
+      "sha256": "0bf4e65e54a700aa5dc16de11a4b27fd516e892d0e6fd8d381f999bb73bcab69",
+      "duration": 0.704,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "swings:sentence": {
+      "path": "audio/emma/swings-sentence.wav",
+      "text": "The children played on the swings.",
+      "sha256": "6510b58b854f532a849abbd06640f203ae4df4c87e09002bec422512bf0fe53f",
+      "duration": 2.016,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "balloon:word": {
+      "path": "audio/emma/balloon-word.wav",
+      "text": "balloon",
+      "sha256": "8305318eff84bb360edb1aa248c03b7223024dd6782ac55bc05170f3ccc1d5b7",
+      "duration": 0.725,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "balloon:sentence": {
+      "path": "audio/emma/balloon-sentence.wav",
+      "text": "The red balloon floated in the air.",
+      "sha256": "0c5a887a6704e43148a1deb2e46bcac5c4afcf0c80f99d623aed00ac8d291014",
+      "duration": 2.164,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "flowers:word": {
+      "path": "audio/emma/flowers-word.wav",
+      "text": "flowers",
+      "sha256": "bd16310f30fb322c370be4dfdb6546fca3c5813e5ac8017dd6923bab266fd838",
+      "duration": 0.725,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "flowers:sentence": {
+      "path": "audio/emma/flowers-sentence.wav",
+      "text": "I watered the flowers in the garden.",
+      "sha256": "c86487b534120f3b069d18430ae185107ef92781ec70272815429757746f5217",
+      "duration": 2.081,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "grandfather:word": {
+      "path": "audio/emma/grandfather-word.wav",
+      "text": "grandfather",
+      "sha256": "6fe153854a399678c3a94e55fa7f18688e14596f749313c0c25e43727141e234",
+      "duration": 1.024,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "grandfather:sentence": {
+      "path": "audio/emma/grandfather-sentence.wav",
+      "text": "My grandfather told me a funny story.",
+      "sha256": "1b8f763a97337c9fe7dbeb99410ccbfcee3844bdb78ef75abd282152e2a0e3fe",
+      "duration": 2.4,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "evening:word": {
+      "path": "audio/emma/evening-word.wav",
+      "text": "evening",
+      "sha256": "bedc877e047164194335cd788b2b9e470148aaf0881ad0c3ccfa87419a28ee12",
+      "duration": 0.725,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "evening:sentence": {
+      "path": "audio/emma/evening-sentence.wav",
+      "text": "We eat dinner together in the evening.",
+      "sha256": "8266f68f01de37c498be54cd790fcc95af27fd6c92e771e36bcb1c07b7f7271c",
+      "duration": 2.187,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "helicopter:word": {
+      "path": "audio/emma/helicopter-word.wav",
+      "text": "helicopter",
+      "sha256": "bf5d80565639cb42ba39329b2b1eac8fdf518b975ee8d0d320af32c3f8a9be9a",
+      "duration": 0.896,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "helicopter:sentence": {
+      "path": "audio/emma/helicopter-sentence.wav",
+      "text": "We saw a helicopter flying above the school playground.",
+      "sha256": "fe0942389fd39102bb0715af6982f39b55113d6786d01296a1e0fb224aab59c4",
+      "duration": 3.178,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "magazine:word": {
+      "path": "audio/emma/magazine-word.wav",
+      "text": "magazine",
+      "sha256": "873ef081bff42342265497103fcb2aab1da0d0f8f00e764c3ac2b6837482cec8",
+      "duration": 0.875,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "magazine:sentence": {
+      "path": "audio/emma/magazine-sentence.wav",
+      "text": "I read a children's magazine about animals and space.",
+      "sha256": "4d842280c2cb14fd3985933ddf9e092dad373c84068acc6d5a6fc9eb40072538",
+      "duration": 3.283,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "staircase:word": {
+      "path": "audio/emma/staircase-word.wav",
+      "text": "staircase",
+      "sha256": "1480c4aa04ae45252103c28a16a5bfd88300fe65234821216c2c409bca32b8bf",
+      "duration": 0.832,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "staircase:sentence": {
+      "path": "audio/emma/staircase-sentence.wav",
+      "text": "We walked carefully down the staircase to our classroom.",
+      "sha256": "092cc52ec0859396fcbeab73e8c0e5ace265b56bb3f0d66c540a1b4e8cfb637c",
+      "duration": 2.815,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "workshop:word": {
+      "path": "audio/emma/workshop-word.wav",
+      "text": "workshop",
+      "sha256": "70dfe5597e4cb5bbecd6eb8036635d4c880a637c2e2650e34920e4a91c810512",
+      "duration": 0.747,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "workshop:sentence": {
+      "path": "audio/emma/workshop-sentence.wav",
+      "text": "We made a simple robot in a school workshop.",
+      "sha256": "33af666d698cb14ee4ff9a55d1d48022e8233d47dd4058145fbcb501aa203c09",
+      "duration": 2.655,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "restaurant:word": {
+      "path": "audio/emma/restaurant-word.wav",
+      "text": "restaurant",
+      "sha256": "44513dbc9adea3cc9bfaa5bb959a1174a4e67a0f5c934025a468bfb2b5b9433b",
+      "duration": 0.832,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": true
+    },
+    "restaurant:sentence": {
+      "path": "audio/emma/restaurant-sentence.wav",
+      "text": "My family ate dinner at a small restaurant near our house.",
+      "sha256": "5844deddeada86485f2c3ee1efc25625276aa698e50a90fda5c2985732b52a8e",
+      "duration": 3.316,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": true
+    },
+    "crocodile:word": {
+      "path": "audio/emma/crocodile-word.wav",
+      "text": "crocodile",
+      "sha256": "1fd0bf9f81c1dfb5089cdaa853c013c3fb4753fc5bf4397b1f7d3b169c0dd064",
+      "duration": 0.896,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "crocodile:sentence": {
+      "path": "audio/emma/crocodile-sentence.wav",
+      "text": "The crocodile opened its huge mouth near the river.",
+      "sha256": "cc4db4676e0e1ebbccd03340bf45e977095633541bcf420595a1e90a3516deb6",
+      "duration": 2.943,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "eagle:word": {
+      "path": "audio/emma/eagle-word.wav",
+      "text": "eagle",
+      "sha256": "5e273a30fbd5208a23daccce85ce772e4c73498981063f6c90569e6da8b88294",
+      "duration": 0.64,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "eagle:sentence": {
+      "path": "audio/emma/eagle-sentence.wav",
+      "text": "An eagle flew high above the trees.",
+      "sha256": "b17d57b47e60f2efcb154481284f77a094bcc362eada25b2ef7c5602b9e04793",
+      "duration": 2.228,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "shower:word": {
+      "path": "audio/emma/shower-word.wav",
+      "text": "shower",
+      "sha256": "98a3e519bcbdc5af62845894f9faa6243975033c75f2aab1cbd0b46090638206",
+      "duration": 0.576,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "shower:sentence": {
+      "path": "audio/emma/shower-sentence.wav",
+      "text": "I took a shower after playing outside on a hot day.",
+      "sha256": "68464771278d5c58e45badbb3ac183519951359e680e9217de83849f04862331",
+      "duration": 2.901,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "eraser:word": {
+      "path": "audio/emma/eraser-word.wav",
+      "text": "eraser",
+      "sha256": "bf2e32d9cb1124c3c9316228433d998bb43c9b6a71a5bb3d36f41f1ee0dc894a",
+      "duration": 0.789,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "eraser:sentence": {
+      "path": "audio/emma/eraser-sentence.wav",
+      "text": "She used an eraser to remove the incorrect answer from her worksheet.",
+      "sha256": "3c15fd8b0a49900d84d186f5adbd177774e723318d7c3b815b91dc8557cb9daf",
+      "duration": 3.849,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "sneakers:word": {
+      "path": "audio/emma/sneakers-word.wav",
+      "text": "sneakers",
+      "sha256": "65b94682940ac23d4bf9522bea79aeb1b03489225ee7729ba6c1e2c7eef86ce6",
+      "duration": 0.832,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "sneakers:sentence": {
+      "path": "audio/emma/sneakers-sentence.wav",
+      "text": "I wore my sneakers for our school sports day.",
+      "sha256": "73cffe387fd68327ceb36ffbd6f6fdca55b7d12db2a852f5af736d988220742a",
+      "duration": 2.591,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "ruler:word": {
+      "path": "audio/emma/ruler-word.wav",
+      "text": "ruler",
+      "sha256": "39b71530f4f22a0f4d95110a04aeb3aa2098cbd31fcf2911baaa19dadf327c98",
+      "duration": 0.683,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "ruler:sentence": {
+      "path": "audio/emma/ruler-sentence.wav",
+      "text": "Use a ruler to draw a straight line across the page.",
+      "sha256": "133a0b48ccd8a6402bed6e07e2ecead307a0ef50bb6cb9e3ff6229fd5560fda4",
+      "duration": 2.943,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "quiz:word": {
+      "path": "audio/emma/quiz-word.wav",
+      "text": "quiz",
+      "sha256": "1813e8fc10df27dbfd17fa03e350b7776f07b16cd2d5590de6caef8729878d77",
+      "duration": 0.554,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "quiz:sentence": {
+      "path": "audio/emma/quiz-sentence.wav",
+      "text": "Our teacher gave us a short quiz on vocabulary at the end of the lesson.",
+      "sha256": "7c59aa6778df39b51935a1aea2bbcf59b17387073805f94b38dcb6f929932344",
+      "duration": 3.987,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "sleeveless:word": {
+      "path": "audio/emma/sleeveless-word.wav",
+      "text": "sleeveless",
+      "sha256": "1a9812696ea937e450f6f11c0011e16efbe11b79e7abc5b823d441b506ca1b09",
+      "duration": 0.853,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "sleeveless:sentence": {
+      "path": "audio/emma/sleeveless-sentence.wav",
+      "text": "She wore a sleeveless dress because the weather was very warm.",
+      "sha256": "b9fa88649533ed1b8498eb23545ba1fb3d5e11d300aa4724dfd28c073e10fc02",
+      "duration": 3.145,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "earthquake:word": {
+      "path": "audio/emma/earthquake-word.wav",
+      "text": "earthquake",
+      "sha256": "d7f13d5c9d781d6ffbcb7d538b687c35f8e391ddbdbd7f286de5132e604e7291",
+      "duration": 0.789,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "earthquake:sentence": {
+      "path": "audio/emma/earthquake-sentence.wav",
+      "text": "During the earthquake, the windows shook and everyone moved to a safe place.",
+      "sha256": "f1c7dedbeb691f2eeb5f3bd12400f7c5ab451cc42a1eae94b06b7e975b9bdce3",
+      "duration": 3.985,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "camel:word": {
+      "path": "audio/emma/camel-word.wav",
+      "text": "camel",
+      "sha256": "b36f3bce6104dc9957c12c9ea9faaa70397318901251b8d1b838df7489d7824b",
+      "duration": 0.64,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "camel:sentence": {
+      "path": "audio/emma/camel-sentence.wav",
+      "text": "A camel can survive for a long time in the desert with little water.",
+      "sha256": "f421f9b37cc5726b57d99b75ed1d164ca01596d826e3f7f39708ea1fb7fe1d50",
+      "duration": 3.625,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "soup:word": {
+      "path": "audio/emma/soup-word.wav",
+      "text": "soup",
+      "sha256": "a3a6b27a6f9e85316b96531ee86d73702c09a1c3c36d68279facc9e62121286c",
+      "duration": 0.583,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "soup:sentence": {
+      "path": "audio/emma/soup-sentence.wav",
+      "text": "The hot soup helped warm us up on the rainy afternoon.",
+      "sha256": "439afe750521ca8d4118faa9762ab400616c77bf45947a64e49db8e5d22dec14",
+      "duration": 2.943,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "breakfast:word": {
+      "path": "audio/emma/breakfast-word.wav",
+      "text": "breakfast",
+      "sha256": "84fb8eb5cbc9c6e72cf020121879954d34cfb024e87622bcae089abcf2933644",
+      "duration": 0.811,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "breakfast:sentence": {
+      "path": "audio/emma/breakfast-sentence.wav",
+      "text": "I usually eat eggs and fruit for breakfast before school.",
+      "sha256": "fa8b9fa2846e42c806229d0b6d5bf7c16e3028fed7c9ed019aaf4f801236a9f0",
+      "duration": 3.198,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "badger:word": {
+      "path": "audio/emma/badger-word.wav",
+      "text": "badger",
+      "sha256": "4f6d403990877609f2b154400e5321bb3b4470f9bc3f64ebf0993818a25c2c66",
+      "duration": 0.725,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "badger:sentence": {
+      "path": "audio/emma/badger-sentence.wav",
+      "text": "A badger is a small animal that can dig holes in the ground.",
+      "sha256": "7f9568e65bf17e2e6776e1ed48b80ef31de49e6b1898714bd4b91b18a8a22ce4",
+      "duration": 3.381,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "notice:word": {
+      "path": "audio/emma/notice-word.wav",
+      "text": "notice",
+      "sha256": "2d96768c6aa89560339a4cd8fea9cab890558458c319cd0f653ced15d0af984c",
+      "duration": 0.747,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "notice:sentence": {
+      "path": "audio/emma/notice-sentence.wav",
+      "text": "Did you notice the rainbow appearing after the rain?",
+      "sha256": "5fba2925ec3052f72807f4d462783c721fc79666657e77a0fd09e44bb2e339a9",
+      "duration": 2.804,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "adventure:word": {
+      "path": "audio/emma/adventure-word.wav",
+      "text": "adventure",
+      "sha256": "2dce0efa5720b6d99e35c35c45ba52479fcaa74ce38cacc50b131efaf4f626d9",
+      "duration": 0.896,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "adventure:sentence": {
+      "path": "audio/emma/adventure-sentence.wav",
+      "text": "Our camping trip was a fun adventure.",
+      "sha256": "26fefa66e32d37d26b3c5a9d79305760fd5d95b62fb979eba7a2443979fbad11",
+      "duration": 2.346,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "toaster:word": {
+      "path": "audio/emma/toaster-word.wav",
+      "text": "toaster",
+      "sha256": "51382c6cb013082f67562883fce58abc0c6e5025a72515aa0fae34df082b25d0",
+      "duration": 0.789,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "toaster:sentence": {
+      "path": "audio/emma/toaster-sentence.wav",
+      "text": "Put the bread in the toaster for a few minutes until it turns golden brown.",
+      "sha256": "129b31213c49379b2edabbd11bc0d07425e406664e55b61d8eebe35e70b2c737",
+      "duration": 3.656,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "spinach:word": {
+      "path": "audio/emma/spinach-word.wav",
+      "text": "spinach",
+      "sha256": "c80e38c1076bbb54426674c00998595e2b4b424a740087ca90efb1348adfd53a",
+      "duration": 0.768,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "spinach:sentence": {
+      "path": "audio/emma/spinach-sentence.wav",
+      "text": "My mother added fresh spinach to the omelette.",
+      "sha256": "7735c39ccf4c8445fde08978cf8acdf1b95a7a078a0c196919786f5607aebdb3",
+      "duration": 2.495,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "vanilla:word": {
+      "path": "audio/emma/vanilla-word.wav",
+      "text": "vanilla",
+      "sha256": "70314987baedd7d3fc90804652a67f76cabc06a93272c4bf2e601f88e2f5451b",
+      "duration": 0.683,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "vanilla:sentence": {
+      "path": "audio/emma/vanilla-sentence.wav",
+      "text": "She chose vanilla ice cream instead of chocolate.",
+      "sha256": "207367da3367f7141241836f1281c54114853061bce9f50eeb3e3bef544da255",
+      "duration": 2.879,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "niece:word": {
+      "path": "audio/emma/niece-word.wav",
+      "text": "niece",
+      "sha256": "eb3bf74779802c3133f2e87231cf4237070f2ef50594c864b21eb29ca1ad8672",
+      "duration": 0.604,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": true
+    },
+    "niece:sentence": {
+      "path": "audio/emma/niece-sentence.wav",
+      "text": "My niece likes drawing pictures and playing with dolls.",
+      "sha256": "1c52f64a055f78dcbabefc3d8125376c08694a9c2b1d3820364433bd4a391ec2",
+      "duration": 3.037,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": true
+    },
+    "office:word": {
+      "path": "audio/emma/office-word.wav",
+      "text": "office",
+      "sha256": "701313458eac7bfcebbde4d3cdc7ca31d25d8d51a42fc85753f52e392ae0fcb5",
+      "duration": 0.661,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "office:sentence": {
+      "path": "audio/emma/office-sentence.wav",
+      "text": "Dad works in an office near the city center.",
+      "sha256": "183f49ab7aa1a2c7e2a3436f7ca5f8a90aa1297de6929441eaff453419c73bf6",
+      "duration": 2.515,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "lantern:word": {
+      "path": "audio/emma/lantern-word.wav",
+      "text": "lantern",
+      "sha256": "8135f3018ecb833403a38c57728df13a7ce293fd54d2201374e835bac9b8fca7",
+      "duration": 0.811,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "lantern:sentence": {
+      "path": "audio/emma/lantern-sentence.wav",
+      "text": "We used a lantern to light our tent after it became dark.",
+      "sha256": "84958ef9fd70c4e73cdcbe0598e354bf2caafdbce5a5f820f56466b663be0d98",
+      "duration": 3.359,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "rainbow:word": {
+      "path": "audio/emma/rainbow-word.wav",
+      "text": "rainbow",
+      "sha256": "8fa7f4308da2f038761bc0c742a348285809e28ef5cd02d4f4d426ed6a8e5754",
+      "duration": 0.747,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": true
+    },
+    "rainbow:sentence": {
+      "path": "audio/emma/rainbow-sentence.wav",
+      "text": "A bright rainbow appeared in the sky after the storm.",
+      "sha256": "9b68610342c0c7ba647ad4409c8fe75bdd5f7bed9f8bd12c8b40983556743f65",
+      "duration": 2.815,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": true
+    },
+    "bakery:word": {
+      "path": "audio/emma/bakery-word.wav",
+      "text": "bakery",
+      "sha256": "5457f40e6bd56be78696681122d55290d4b29738cd1c9a410d0e2cd490ff073e",
+      "duration": 0.747,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "bakery:sentence": {
+      "path": "audio/emma/bakery-sentence.wav",
+      "text": "The smell of fresh bread filled the bakery early in the morning.",
+      "sha256": "cf3aaffff4b33f12723f00554c254ee08cfb875c2359dbe624718ed919d4cba8",
+      "duration": 3.209,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "postcard:word": {
+      "path": "audio/emma/postcard-word.wav",
+      "text": "postcard",
+      "sha256": "1a640963db61d98ac63adbdcfb9a1872aa1d1f946597321dae50c1aec9347b85",
+      "duration": 0.875,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "postcard:sentence": {
+      "path": "audio/emma/postcard-sentence.wav",
+      "text": "I sent my cousin a postcard from our holiday.",
+      "sha256": "98050c289ba83fce40dda029207a5a4d68c520980b5621db3afdc359403cf0a2",
+      "duration": 2.815,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "flight:word": {
+      "path": "audio/emma/flight-word.wav",
+      "text": "flight",
+      "sha256": "d99bb8956cc345a5df043b461e0bf444c657d80bf4024fac6d5044f989cd4f30",
+      "duration": 0.576,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "flight:sentence": {
+      "path": "audio/emma/flight-sentence.wav",
+      "text": "Our flight was delayed because of heavy rain.",
+      "sha256": "e693940b5d87b0946ec2526406edbc75f7ba77f26e9cd4d0accb22e25c18cf31",
+      "duration": 2.581,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "cottage:word": {
+      "path": "audio/emma/cottage-word.wav",
+      "text": "cottage",
+      "sha256": "9a166d9902951edac8c5c9cd59e0dd519aba148639ff90cb337c556b510be5ab",
+      "duration": 0.768,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "cottage:sentence": {
+      "path": "audio/emma/cottage-sentence.wav",
+      "text": "We stayed in a little cottage beside a lake.",
+      "sha256": "1d5fd6808374e2ddc2a751ebffb7099a775f3157b2db72f4b0f5856bc176f71b",
+      "duration": 2.518,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "rice:word": {
+      "path": "audio/emma/rice-word.wav",
+      "text": "rice",
+      "sha256": "56ada8f0bdfb3503f11c6ff583e25690eaa963b0ce7baac150a82f3d17cf852d",
+      "duration": 0.597,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "rice:sentence": {
+      "path": "audio/emma/rice-sentence.wav",
+      "text": "We ate warm rice with vegetables for lunch.",
+      "sha256": "fb2ce8558b321ab7b332b897d79774581b5e8be3ce40bdfd3653d528eb83a2b5",
+      "duration": 2.825,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "divide:word": {
+      "path": "audio/emma/divide-word.wav",
+      "text": "divide",
+      "sha256": "16705416ba92f8753acf0de0cccc5735109a58e7f214b45e8bceddc7d476bb75",
+      "duration": 0.747,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "divide:sentence": {
+      "path": "audio/emma/divide-sentence.wav",
+      "text": "Please divide the eight cookies equally among the four children.",
+      "sha256": "df6cadc7a735e2fc660408dd14de79ddcbf64bcd25a0f532edf636f27989df69",
+      "duration": 3.369,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "centipede:word": {
+      "path": "audio/emma/centipede-word.wav",
+      "text": "centipede",
+      "sha256": "452783e548976c67349793959005cd7112caa823380c3bedd741a481b5ba7d25",
+      "duration": 0.896,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "centipede:sentence": {
+      "path": "audio/emma/centipede-sentence.wav",
+      "text": "We saw a centipede with many legs crawling under a rock.",
+      "sha256": "35aa80f3e0a9d0a312969dc334fef67741473d4293b9ce1e22d9882c3ec20a10",
+      "duration": 3.187,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "couch:word": {
+      "path": "audio/emma/couch-word.wav",
+      "text": "couch",
+      "sha256": "71375eb1e393fd0f187e47c8f25b718a30141cd5cf6430fdf35832bcd726cd89",
+      "duration": 0.629,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "couch:sentence": {
+      "path": "audio/emma/couch-sentence.wav",
+      "text": "We sat on the couch and watched a cartoon after school.",
+      "sha256": "aa1a6aff3c211bb01053ae39d2fcdad8d8a6be0f8d280deeff110babd3ba544b",
+      "duration": 3.091,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": false
+    },
+    "gorgeous:word": {
+      "path": "audio/emma/gorgeous-word.wav",
+      "text": "gorgeous",
+      "sha256": "7f4762a51bd3b0652f3d627414dc2e89804561d6230cb35a8d5bd1f48c1dc0ec",
+      "duration": 0.811,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": true
+    },
+    "gorgeous:sentence": {
+      "path": "audio/emma/gorgeous-sentence.wav",
+      "text": "The sunset over the beach looked gorgeous.",
+      "sha256": "8a6c6f1bd144c3e56b6fc84aa7f42678ab53513919c3f2394830948452ec0b0e",
+      "duration": 2.399,
+      "sample_rate": 24000,
+      "voice": "bf_emma",
+      "reused": true
+    }
+  },
+  "generated_at": "2026-10-20T08:19:30.097413+00:00"
+}

@@ -1,0 +1,451 @@
+{
+  "version": 1,
+  "chapters": [
+    {
+      "id": "chapter-1",
+      "title": "4–5 letters",
+      "min": 4,
+      "max": 5,
+      "packs": [
+        {
+          "id": "c1-p1",
+          "words": [
+            "cash",
+            "chair",
+            "queen"
+          ],
+          "lessons": [
+            "learn",
+            "build",
+            "spell"
+          ]
+        },
+        {
+          "id": "c1-p2",
+          "words": [
+            "joke",
+            "rice",
+            "quiz"
+          ],
+          "lessons": [
+            "learn",
+            "build",
+            "spell"
+          ]
+        },
+        {
+          "id": "c1-p3",
+          "words": [
+            "mouse",
+            "couch",
+            "soup"
+          ],
+          "lessons": [
+            "learn",
+            "build",
+            "spell"
+          ]
+        },
+        {
+          "id": "c1-p4",
+          "words": [
+            "roast",
+            "elbow",
+            "eagle"
+          ],
+          "lessons": [
+            "learn",
+            "build",
+            "spell"
+          ]
+        },
+        {
+          "id": "c1-p5",
+          "words": [
+            "quilt",
+            "might",
+            "niece"
+          ],
+          "lessons": [
+            "learn",
+            "build",
+            "spell"
+          ]
+        },
+        {
+          "id": "c1-p6",
+          "words": [
+            "syrup",
+            "ocean",
+            "ruler"
+          ],
+          "lessons": [
+            "learn",
+            "build",
+            "spell"
+          ]
+        },
+        {
+          "id": "c1-p7",
+          "words": [
+            "sofa",
+            "camel",
+            "kayak"
+          ],
+          "lessons": [
+            "learn",
+            "build",
+            "spell"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chapter-2",
+      "title": "6 letters",
+      "min": 6,
+      "max": 6,
+      "packs": [
+        {
+          "id": "c2-p1",
+          "words": [
+            "street",
+            "seesaw",
+            "flight"
+          ],
+          "lessons": [
+            "learn",
+            "build",
+            "spell"
+          ]
+        },
+        {
+          "id": "c2-p2",
+          "words": [
+            "rubber",
+            "fluffy",
+            "skinny"
+          ],
+          "lessons": [
+            "learn",
+            "build",
+            "spell"
+          ]
+        },
+        {
+          "id": "c2-p3",
+          "words": [
+            "cherry",
+            "office",
+            "bottle"
+          ],
+          "lessons": [
+            "learn",
+            "build",
+            "spell"
+          ]
+        },
+        {
+          "id": "c2-p4",
+          "words": [
+            "pickle",
+            "jungle",
+            "switch"
+          ],
+          "lessons": [
+            "learn",
+            "build",
+            "spell"
+          ]
+        },
+        {
+          "id": "c2-p5",
+          "words": [
+            "swings",
+            "shower",
+            "divide"
+          ],
+          "lessons": [
+            "learn",
+            "build",
+            "spell"
+          ]
+        },
+        {
+          "id": "c2-p6",
+          "words": [
+            "parent",
+            "carpet",
+            "doctor"
+          ],
+          "lessons": [
+            "learn",
+            "build",
+            "spell"
+          ]
+        },
+        {
+          "id": "c2-p7",
+          "words": [
+            "eraser",
+            "notice",
+            "badger"
+          ],
+          "lessons": [
+            "learn",
+            "build",
+            "spell"
+          ]
+        },
+        {
+          "id": "c2-p8",
+          "words": [
+            "bakery",
+            "escape"
+          ],
+          "lessons": [
+            "learn",
+            "build",
+            "spell"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chapter-3",
+      "title": "7 letters",
+      "min": 7,
+      "max": 7,
+      "packs": [
+        {
+          "id": "c3-p1",
+          "words": [
+            "feather",
+            "weather",
+            "teacher"
+          ],
+          "lessons": [
+            "learn",
+            "build",
+            "spell"
+          ]
+        },
+        {
+          "id": "c3-p2",
+          "words": [
+            "mailbox",
+            "rainbow",
+            "toaster"
+          ],
+          "lessons": [
+            "learn",
+            "build",
+            "spell"
+          ]
+        },
+        {
+          "id": "c3-p3",
+          "words": [
+            "glasses",
+            "balloon",
+            "vanilla"
+          ],
+          "lessons": [
+            "learn",
+            "build",
+            "spell"
+          ]
+        },
+        {
+          "id": "c3-p4",
+          "words": [
+            "dentist",
+            "flowers",
+            "evening"
+          ],
+          "lessons": [
+            "learn",
+            "build",
+            "spell"
+          ]
+        },
+        {
+          "id": "c3-p5",
+          "words": [
+            "gymnast",
+            "spinach"
+          ],
+          "lessons": [
+            "learn",
+            "build",
+            "spell"
+          ]
+        },
+        {
+          "id": "c3-p6",
+          "words": [
+            "lantern",
+            "cottage"
+          ],
+          "lessons": [
+            "learn",
+            "build",
+            "spell"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chapter-4",
+      "title": "8 letters",
+      "min": 8,
+      "max": 8,
+      "packs": [
+        {
+          "id": "c4-p1",
+          "words": [
+            "peaceful",
+            "graceful",
+            "junkyard"
+          ],
+          "lessons": [
+            "learn",
+            "build",
+            "spell"
+          ]
+        },
+        {
+          "id": "c4-p2",
+          "words": [
+            "speakers",
+            "sneakers",
+            "throwing"
+          ],
+          "lessons": [
+            "learn",
+            "build",
+            "spell"
+          ]
+        },
+        {
+          "id": "c4-p3",
+          "words": [
+            "workshop",
+            "postcard",
+            "december"
+          ],
+          "lessons": [
+            "learn",
+            "build",
+            "spell"
+          ]
+        },
+        {
+          "id": "c4-p4",
+          "words": [
+            "vacation",
+            "magazine",
+            "gorgeous"
+          ],
+          "lessons": [
+            "learn",
+            "build",
+            "spell"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chapter-5",
+      "title": "9 letters",
+      "min": 9,
+      "max": 9,
+      "packs": [
+        {
+          "id": "c5-p1",
+          "words": [
+            "blueberry",
+            "shellfish",
+            "breakfast"
+          ],
+          "lessons": [
+            "learn",
+            "build",
+            "spell"
+          ]
+        },
+        {
+          "id": "c5-p2",
+          "words": [
+            "telephone",
+            "staircase",
+            "crocodile"
+          ],
+          "lessons": [
+            "learn",
+            "build",
+            "spell"
+          ]
+        },
+        {
+          "id": "c5-p3",
+          "words": [
+            "adventure",
+            "centipede"
+          ],
+          "lessons": [
+            "learn",
+            "build",
+            "spell"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chapter-6",
+      "title": "10–11 letters",
+      "min": 10,
+      "max": 11,
+      "packs": [
+        {
+          "id": "c6-p1",
+          "words": [
+            "toothpaste",
+            "sleeveless",
+            "earthquake"
+          ],
+          "lessons": [
+            "learn",
+            "build",
+            "spell"
+          ]
+        },
+        {
+          "id": "c6-p2",
+          "words": [
+            "chimpanzee",
+            "management",
+            "helicopter"
+          ],
+          "lessons": [
+            "learn",
+            "build",
+            "spell"
+          ]
+        },
+        {
+          "id": "c6-p3",
+          "words": [
+            "restaurant",
+            "grandfather"
+          ],
+          "lessons": [
+            "learn",
+            "build",
+            "spell"
+          ]
+        }
+      ]
+    }
+  ]
+}

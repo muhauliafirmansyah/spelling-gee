@@ -1,0 +1,628 @@
+{
+  "schema_version": 1,
+  "canvas": {
+    "width": 256,
+    "height": 256,
+    "viewBox": "0 0 256 256",
+    "background": "transparent"
+  },
+  "style": "Original rounded flat vector illustrations, bright restrained palette, no visible English labels.",
+  "images": [
+    {
+      "word": "parent",
+      "image_path": "assets/words/parent.svg",
+      "image_alt": "Orang dewasa menggandeng anak",
+      "image_requires_context": true,
+      "context_note": "The relationship needs audio or meaning context."
+    },
+    {
+      "word": "carpet",
+      "image_path": "assets/words/carpet.svg",
+      "image_alt": "Permadani persegi panjang dengan pola belah ketupat",
+      "image_requires_context": false,
+      "context_note": ""
+    },
+    {
+      "word": "feather",
+      "image_path": "assets/words/feather.svg",
+      "image_alt": "Sehelai bulu burung berwarna biru",
+      "image_requires_context": false,
+      "context_note": ""
+    },
+    {
+      "word": "doctor",
+      "image_path": "assets/words/doctor.svg",
+      "image_alt": "Dokter berjas putih memakai stetoskop",
+      "image_requires_context": false,
+      "context_note": ""
+    },
+    {
+      "word": "roast",
+      "image_path": "assets/words/roast.svg",
+      "image_alt": "Ayam panggang di atas piring",
+      "image_requires_context": true,
+      "context_note": "The chicken identifies the scene; audio selects the adjective roast."
+    },
+    {
+      "word": "mailbox",
+      "image_path": "assets/words/mailbox.svg",
+      "image_alt": "Kotak surat biru dengan bendera merah dan amplop",
+      "image_requires_context": false,
+      "context_note": ""
+    },
+    {
+      "word": "peaceful",
+      "image_path": "assets/words/peaceful.svg",
+      "image_alt": "Pemandangan danau yang tenang dengan bukit hijau",
+      "image_requires_context": true,
+      "context_note": "A scene suggesting calm; audio or Indonesian meaning identifies peaceful."
+    },
+    {
+      "word": "elbow",
+      "image_path": "assets/words/elbow.svg",
+      "image_alt": "Lengan ditekuk dengan penanda pada siku",
+      "image_requires_context": true,
+      "context_note": "The marker identifies the joint rather than the whole arm."
+    },
+    {
+      "word": "street",
+      "image_path": "assets/words/street.svg",
+      "image_alt": "Jalan dengan marka putih di antara rumah-rumah",
+      "image_requires_context": false,
+      "context_note": ""
+    },
+    {
+      "word": "blueberry",
+      "image_path": "assets/words/blueberry.svg",
+      "image_alt": "Tiga buah beri biru dengan mahkota kecil di ujungnya",
+      "image_requires_context": false,
+      "context_note": ""
+    },
+    {
+      "word": "skinny",
+      "image_path": "assets/words/skinny.svg",
+      "image_alt": "Anak kucing bertubuh ramping",
+      "image_requires_context": true,
+      "context_note": "Uses the school sentence about a thin kitten; audio distinguishes the adjective."
+    },
+    {
+      "word": "syrup",
+      "image_path": "assets/words/syrup.svg",
+      "image_alt": "Cairan manis berwarna keemasan dituangkan ke panekuk",
+      "image_requires_context": false,
+      "context_note": ""
+    },
+    {
+      "word": "gymnast",
+      "image_path": "assets/words/gymnast.svg",
+      "image_alt": "Pesenam menyeimbangkan tubuh di atas balok",
+      "image_requires_context": false,
+      "context_note": ""
+    },
+    {
+      "word": "joke",
+      "image_path": "assets/words/joke.svg",
+      "image_alt": "Dua anak tertawa bersama dengan gelembung percakapan",
+      "image_requires_context": true,
+      "context_note": "Laughing alone can also mean funny or happy; pair with target audio."
+    },
+    {
+      "word": "rubber",
+      "image_path": "assets/words/rubber.svg",
+      "image_alt": "Bahan karet ditunjukkan sebagai pita melingkar dan lembaran lentur",
+      "image_requires_context": true,
+      "context_note": "Rubber means the material in this school sentence, not an eraser."
+    },
+    {
+      "word": "escape",
+      "image_path": "assets/words/escape.svg",
+      "image_alt": "Anjing berlari keluar melalui pagar yang terbuka",
+      "image_requires_context": true,
+      "context_note": "The dog and open gate need a verb cue."
+    },
+    {
+      "word": "chimpanzee",
+      "image_path": "assets/words/chimpanzee.svg",
+      "image_alt": "Simpanse cokelat dengan wajah krem dan lengan panjang",
+      "image_requires_context": false,
+      "context_note": ""
+    },
+    {
+      "word": "sofa",
+      "image_path": "assets/words/sofa.svg",
+      "image_alt": "Tempat duduk panjang empuk berwarna ungu",
+      "image_requires_context": true,
+      "context_note": "Sofa and couch share a meaning; English audio is needed to choose the intended word."
+    },
+    {
+      "word": "mouse",
+      "image_path": "assets/words/mouse.svg",
+      "image_alt": "Tikus kecil abu-abu dengan telinga bulat dan ekor merah muda",
+      "image_requires_context": false,
+      "context_note": ""
+    },
+    {
+      "word": "shellfish",
+      "image_path": "assets/words/shellfish.svg",
+      "image_alt": "Kerang bercangkang di samping kepiting merah",
+      "image_requires_context": false,
+      "context_note": ""
+    },
+    {
+      "word": "vacation",
+      "image_path": "assets/words/vacation.svg",
+      "image_alt": "Koper di samping pohon palem dan matahari",
+      "image_requires_context": true,
+      "context_note": "The scene can also mean travel; pair with the word cue."
+    },
+    {
+      "word": "toothpaste",
+      "image_path": "assets/words/toothpaste.svg",
+      "image_alt": "Tabung pasta gigi dengan sikat dan gumpalan pasta",
+      "image_requires_context": false,
+      "context_note": ""
+    },
+    {
+      "word": "bottle",
+      "image_path": "assets/words/bottle.svg",
+      "image_alt": "Wadah air biru dengan tutup ulir",
+      "image_requires_context": false,
+      "context_note": ""
+    },
+    {
+      "word": "cherry",
+      "image_path": "assets/words/cherry.svg",
+      "image_alt": "Dua buah ceri merah menggantung pada tangkai hijau",
+      "image_requires_context": false,
+      "context_note": ""
+    },
+    {
+      "word": "ocean",
+      "image_path": "assets/words/ocean.svg",
+      "image_alt": "Hamparan air laut dengan lapisan ombak biru",
+      "image_requires_context": true,
+      "context_note": "Ocean and sea cannot be distinguished from the image alone."
+    },
+    {
+      "word": "cash",
+      "image_path": "assets/words/cash.svg",
+      "image_alt": "Uang kertas dan beberapa keping uang logam",
+      "image_requires_context": true,
+      "context_note": "May cue money; audio identifies the target cash."
+    },
+    {
+      "word": "glasses",
+      "image_path": "assets/words/glasses.svg",
+      "image_alt": "Kacamata bulat dengan bingkai ungu",
+      "image_requires_context": false,
+      "context_note": ""
+    },
+    {
+      "word": "fluffy",
+      "image_path": "assets/words/fluffy.svg",
+      "image_alt": "Kucing berbulu tebal dan mengembang",
+      "image_requires_context": true,
+      "context_note": "The noun is cat; the intended adjective needs audio or meaning context."
+    },
+    {
+      "word": "speakers",
+      "image_path": "assets/words/speakers.svg",
+      "image_alt": "Sepasang pengeras suara dengan kerucut bundar",
+      "image_requires_context": false,
+      "context_note": ""
+    },
+    {
+      "word": "switch",
+      "image_path": "assets/words/switch.svg",
+      "image_alt": "Sakelar lampu dengan tombol miring pada pelat dinding",
+      "image_requires_context": false,
+      "context_note": ""
+    },
+    {
+      "word": "quilt",
+      "image_path": "assets/words/quilt.svg",
+      "image_alt": "Selimut tebal berlapis dengan kotak-kotak warna",
+      "image_requires_context": true,
+      "context_note": "The patchwork suggests a quilt; audio distinguishes it from blanket."
+    },
+    {
+      "word": "junkyard",
+      "image_path": "assets/words/junkyard.svg",
+      "image_alt": "Tumpukan ban, mobil rusak, dan barang rongsokan",
+      "image_requires_context": false,
+      "context_note": ""
+    },
+    {
+      "word": "graceful",
+      "image_path": "assets/words/graceful.svg",
+      "image_alt": "Penari bergerak dengan lengan dan kaki terentang",
+      "image_requires_context": true,
+      "context_note": "A dancer suggests graceful movement, but the adjective needs context."
+    },
+    {
+      "word": "pickle",
+      "image_path": "assets/words/pickle.svg",
+      "image_alt": "Mentimun acar hijau di samping stoples",
+      "image_requires_context": false,
+      "context_note": ""
+    },
+    {
+      "word": "kayak",
+      "image_path": "assets/words/kayak.svg",
+      "image_alt": "Perahu kecil panjang dengan dayung berbilah dua",
+      "image_requires_context": false,
+      "context_note": ""
+    },
+    {
+      "word": "weather",
+      "image_path": "assets/words/weather.svg",
+      "image_alt": "Matahari, awan, dan tetes hujan",
+      "image_requires_context": true,
+      "context_note": "A composite weather scene; audio distinguishes weather from rain or cloud."
+    },
+    {
+      "word": "might",
+      "image_path": "assets/words/might.svg",
+      "image_alt": "Awan dengan kemungkinan hujan dan tanda tanya",
+      "image_requires_context": true,
+      "context_note": "A possibility scene cannot identify the modal verb without a spoken sentence."
+    },
+    {
+      "word": "December",
+      "image_path": "assets/words/december.svg",
+      "image_alt": "Kalender dengan angka dua belas dan hiasan akhir tahun",
+      "image_requires_context": true,
+      "context_note": "The number 12 suggests the twelfth month; audio or Indonesian meaning selects December."
+    },
+    {
+      "word": "teacher",
+      "image_path": "assets/words/teacher.svg",
+      "image_alt": "Guru berdiri di samping papan tulis dan memegang penunjuk",
+      "image_requires_context": false,
+      "context_note": ""
+    },
+    {
+      "word": "dentist",
+      "image_path": "assets/words/dentist.svg",
+      "image_alt": "Dokter gigi dengan alat pemeriksaan dan gambar gigi",
+      "image_requires_context": false,
+      "context_note": ""
+    },
+    {
+      "word": "management",
+      "image_path": "assets/words/management.svg",
+      "image_alt": "Tim pengelola berdiskusi di meja dengan rencana kerja",
+      "image_requires_context": true,
+      "context_note": "A team planning scene; management needs a meaning or sentence cue."
+    },
+    {
+      "word": "telephone",
+      "image_path": "assets/words/telephone.svg",
+      "image_alt": "Pesawat telepon meja dengan gagang melengkung",
+      "image_requires_context": false,
+      "context_note": ""
+    },
+    {
+      "word": "jungle",
+      "image_path": "assets/words/jungle.svg",
+      "image_alt": "Hutan rimbun dengan pohon, dedaunan, dan sulur",
+      "image_requires_context": false,
+      "context_note": ""
+    },
+    {
+      "word": "seesaw",
+      "image_path": "assets/words/seesaw.svg",
+      "image_alt": "Papan jungkat-jungkit dengan dua dudukan",
+      "image_requires_context": false,
+      "context_note": ""
+    },
+    {
+      "word": "throwing",
+      "image_path": "assets/words/throwing.svg",
+      "image_alt": "Anak sedang melempar bola ke depan",
+      "image_requires_context": true,
+      "context_note": "The action needs an English or Indonesian verb cue."
+    },
+    {
+      "word": "swings",
+      "image_path": "assets/words/swings.svg",
+      "image_alt": "Dua ayunan menggantung pada rangka biru",
+      "image_requires_context": false,
+      "context_note": ""
+    },
+    {
+      "word": "balloon",
+      "image_path": "assets/words/balloon.svg",
+      "image_alt": "Balon merah dengan tali melengkung",
+      "image_requires_context": false,
+      "context_note": ""
+    },
+    {
+      "word": "flowers",
+      "image_path": "assets/words/flowers.svg",
+      "image_alt": "Tiga bunga berwarna merah, ungu, dan kuning",
+      "image_requires_context": false,
+      "context_note": ""
+    },
+    {
+      "word": "grandfather",
+      "image_path": "assets/words/grandfather.svg",
+      "image_alt": "Kakek berambut abu-abu berkacamata dan memegang tongkat",
+      "image_requires_context": true,
+      "context_note": "The image identifies an older man; grandfather is a family relationship."
+    },
+    {
+      "word": "evening",
+      "image_path": "assets/words/evening.svg",
+      "image_alt": "Rumah saat senja dengan matahari terbenam dan bulan sabit",
+      "image_requires_context": true,
+      "context_note": "A dusk scene supports evening; pair with audio for the intended time word."
+    },
+    {
+      "word": "helicopter",
+      "image_path": "assets/words/helicopter.svg",
+      "image_alt": "Helikopter oranye dengan rotor dan ekor panjang",
+      "image_requires_context": false,
+      "context_note": ""
+    },
+    {
+      "word": "magazine",
+      "image_path": "assets/words/magazine.svg",
+      "image_alt": "Majalah terbuka dengan gambar dan kolom artikel",
+      "image_requires_context": true,
+      "context_note": "The page layout suggests a magazine; audio distinguishes magazine from book."
+    },
+    {
+      "word": "staircase",
+      "image_path": "assets/words/staircase.svg",
+      "image_alt": "Tangga bertingkat dengan pegangan biru",
+      "image_requires_context": false,
+      "context_note": ""
+    },
+    {
+      "word": "workshop",
+      "image_path": "assets/words/workshop.svg",
+      "image_alt": "Meja kerja dengan perkakas dan robot kecil",
+      "image_requires_context": true,
+      "context_note": "Matches the school sentence about building a robot in a school workshop."
+    },
+    {
+      "word": "restaurant",
+      "image_path": "assets/words/restaurant.svg",
+      "image_alt": "Rumah makan dengan kanopi, piring, dan alat makan",
+      "image_requires_context": false,
+      "context_note": ""
+    },
+    {
+      "word": "crocodile",
+      "image_path": "assets/words/crocodile.svg",
+      "image_alt": "Buaya hijau dengan moncong panjang dan punggung bergerigi",
+      "image_requires_context": false,
+      "context_note": ""
+    },
+    {
+      "word": "eagle",
+      "image_path": "assets/words/eagle.svg",
+      "image_alt": "Elang dengan sayap terbentang dan paruh kuning",
+      "image_requires_context": false,
+      "context_note": ""
+    },
+    {
+      "word": "shower",
+      "image_path": "assets/words/shower.svg",
+      "image_alt": "Pancuran air dengan tetesan biru",
+      "image_requires_context": false,
+      "context_note": ""
+    },
+    {
+      "word": "eraser",
+      "image_path": "assets/words/eraser.svg",
+      "image_alt": "Penghapus dua warna dengan serpihan kecil",
+      "image_requires_context": false,
+      "context_note": ""
+    },
+    {
+      "word": "queen",
+      "image_path": "assets/words/queen.svg",
+      "image_alt": "Ratu memakai mahkota dan jubah ungu",
+      "image_requires_context": false,
+      "context_note": ""
+    },
+    {
+      "word": "sneakers",
+      "image_path": "assets/words/sneakers.svg",
+      "image_alt": "Sepasang sepatu olahraga bertali",
+      "image_requires_context": false,
+      "context_note": ""
+    },
+    {
+      "word": "ruler",
+      "image_path": "assets/words/ruler.svg",
+      "image_alt": "Penggaris kuning dengan tanda ukur",
+      "image_requires_context": false,
+      "context_note": ""
+    },
+    {
+      "word": "quiz",
+      "image_path": "assets/words/quiz.svg",
+      "image_alt": "Kartu soal dengan tanda tanya dan beberapa pilihan",
+      "image_requires_context": true,
+      "context_note": "A question sheet can also mean test; use the English or Indonesian cue."
+    },
+    {
+      "word": "chair",
+      "image_path": "assets/words/chair.svg",
+      "image_alt": "Kursi kayu dengan sandaran biru",
+      "image_requires_context": false,
+      "context_note": ""
+    },
+    {
+      "word": "sleeveless",
+      "image_path": "assets/words/sleeveless.svg",
+      "image_alt": "Gaun tanpa lengan dengan bukaan bahu terlihat",
+      "image_requires_context": true,
+      "context_note": "The garment is sleeveless; audio identifies the adjective, not dress."
+    },
+    {
+      "word": "earthquake",
+      "image_path": "assets/words/earthquake.svg",
+      "image_alt": "Rumah bergoyang di atas tanah yang retak",
+      "image_requires_context": false,
+      "context_note": ""
+    },
+    {
+      "word": "camel",
+      "image_path": "assets/words/camel.svg",
+      "image_alt": "Unta cokelat berleher panjang dan berpunggung berpunuk",
+      "image_requires_context": false,
+      "context_note": ""
+    },
+    {
+      "word": "soup",
+      "image_path": "assets/words/soup.svg",
+      "image_alt": "Mangkuk sup hangat berisi sayuran dengan uap",
+      "image_requires_context": false,
+      "context_note": ""
+    },
+    {
+      "word": "breakfast",
+      "image_path": "assets/words/breakfast.svg",
+      "image_alt": "Sepiring telur, roti panggang, dan buah untuk sarapan",
+      "image_requires_context": true,
+      "context_note": "The meal can suggest breakfast, but time and target word need context."
+    },
+    {
+      "word": "badger",
+      "image_path": "assets/words/badger.svg",
+      "image_alt": "Hewan penggali berbadan abu-abu dengan garis hitam pada wajah putih",
+      "image_requires_context": false,
+      "context_note": ""
+    },
+    {
+      "word": "notice",
+      "image_path": "assets/words/notice.svg",
+      "image_alt": "Anak melihat kupu-kupu dengan tanda perhatian di dekat wajah",
+      "image_requires_context": true,
+      "context_note": "The image illustrates noticing, but cannot supply the verb unambiguously."
+    },
+    {
+      "word": "adventure",
+      "image_path": "assets/words/adventure.svg",
+      "image_alt": "Anak membawa ransel menuju pegunungan",
+      "image_requires_context": true,
+      "context_note": "Travel, hiking and adventure share visual cues; audio or meaning selects adventure."
+    },
+    {
+      "word": "toaster",
+      "image_path": "assets/words/toaster.svg",
+      "image_alt": "Pemanggang roti biru dengan dua potong roti muncul di atasnya",
+      "image_requires_context": false,
+      "context_note": ""
+    },
+    {
+      "word": "spinach",
+      "image_path": "assets/words/spinach.svg",
+      "image_alt": "Seikat sayur berdaun hijau dengan batang panjang",
+      "image_requires_context": false,
+      "context_note": ""
+    },
+    {
+      "word": "vanilla",
+      "image_path": "assets/words/vanilla.svg",
+      "image_alt": "Bunga putih, polong gelap, dan es krim putih",
+      "image_requires_context": true,
+      "context_note": "The pods and flower support vanilla flavour; the ice cream alone is insufficient."
+    },
+    {
+      "word": "niece",
+      "image_path": "assets/words/niece.svg",
+      "image_alt": "Perempuan dewasa bersama anak perempuan dengan bingkai keluarga",
+      "image_requires_context": true,
+      "context_note": "Family role cannot be inferred from age or appearance; supply niece in audio or an explicit relationship clue."
+    },
+    {
+      "word": "office",
+      "image_path": "assets/words/office.svg",
+      "image_alt": "Ruang kerja dengan meja, komputer, kursi, dan jendela",
+      "image_requires_context": true,
+      "context_note": "The room context selects office rather than desk or computer."
+    },
+    {
+      "word": "lantern",
+      "image_path": "assets/words/lantern.svg",
+      "image_alt": "Lentera kuning dengan pegangan dan pelindung kaca",
+      "image_requires_context": false,
+      "context_note": ""
+    },
+    {
+      "word": "rainbow",
+      "image_path": "assets/words/rainbow.svg",
+      "image_alt": "Pelangi berwarna-warni di antara dua awan",
+      "image_requires_context": false,
+      "context_note": ""
+    },
+    {
+      "word": "bakery",
+      "image_path": "assets/words/bakery.svg",
+      "image_alt": "Toko roti dengan kanopi dan roti di etalase",
+      "image_requires_context": false,
+      "context_note": ""
+    },
+    {
+      "word": "postcard",
+      "image_path": "assets/words/postcard.svg",
+      "image_alt": "Kartu pos bergambar pemandangan dan perangko",
+      "image_requires_context": false,
+      "context_note": ""
+    },
+    {
+      "word": "flight",
+      "image_path": "assets/words/flight.svg",
+      "image_alt": "Pesawat terbang melintas di antara awan",
+      "image_requires_context": true,
+      "context_note": "An aircraft scene supports flight, but plane is another possible picture label."
+    },
+    {
+      "word": "cottage",
+      "image_path": "assets/words/cottage.svg",
+      "image_alt": "Rumah kecil dengan atap merah, bunga, dan pohon di pedesaan",
+      "image_requires_context": true,
+      "context_note": "A rural small house supports cottage; audio distinguishes house from cottage."
+    },
+    {
+      "word": "rice",
+      "image_path": "assets/words/rice.svg",
+      "image_alt": "Mangkuk berisi nasi putih dengan butiran terlihat",
+      "image_requires_context": false,
+      "context_note": ""
+    },
+    {
+      "word": "divide",
+      "image_path": "assets/words/divide.svg",
+      "image_alt": "Delapan kue dibagi sama rata ke empat piring",
+      "image_requires_context": true,
+      "context_note": "Shows equal sharing of eight cookies into four groups, matching the school sentence."
+    },
+    {
+      "word": "centipede",
+      "image_path": "assets/words/centipede.svg",
+      "image_alt": "Kelabang beruas panjang dengan banyak pasang kaki dan dua antena",
+      "image_requires_context": false,
+      "context_note": ""
+    },
+    {
+      "word": "couch",
+      "image_path": "assets/words/couch.svg",
+      "image_alt": "Tempat duduk panjang empuk dengan dua bantalan",
+      "image_requires_context": true,
+      "context_note": "Couch and sofa share the same visual concept; English audio selects the target."
+    },
+    {
+      "word": "gorgeous",
+      "image_path": "assets/words/gorgeous.svg",
+      "image_alt": "Pemandangan matahari terbenam berwarna cerah di atas pantai",
+      "image_requires_context": true,
+      "context_note": "A beautiful sunset supports gorgeous, but the adjective requires an audio or meaning cue."
+    }
+  ]
+}

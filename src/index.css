@@ -1,0 +1,120 @@
+:root {
+  --color-primary: #58cc02;
+  --color-primary-dark: #46a302;
+  --color-primary-light: #d7ffb8;
+  --color-secondary: #1cb0f6;
+  --color-secondary-dark: #1899d6;
+  --color-accent: #ff9600;
+  --color-danger: #ea2b2b;
+  --color-danger-light: #fed7d7;
+  --color-success: #58cc02;
+  --color-text-main: #2b3442;
+  --color-text-muted: #6b778c;
+  --color-bg-app: #f7f9fa;
+  --color-bg-surface: #ffffff;
+  --color-border: #e5e9f0;
+  --color-border-dark: #cbd5e1;
+  --border-radius-sm: 8px;
+  --border-radius-md: 14px;
+  --border-radius-lg: 20px;
+  --border-radius-pill: 9999px;
+  --font-family: 'Nunito', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 8px rgba(0, 0, 0, 0.08);
+  --shadow-key: 0 4px 0 var(--color-border-dark);
+  --shadow-key-primary: 0 4px 0 var(--color-primary-dark);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
+}
+
+html, body {
+  height: 100%;
+  height: 100dvh;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--color-bg-app);
+  color: var(--color-text-main);
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+#root {
+  height: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  background: none;
+  outline: none;
+}
+
+/* Animations */
+@keyframes popIn {
+  from {
+    transform: scale(0.92);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulseGlow {
+  0% {
+    box-shadow: 0 0 0 0 rgba(88, 204, 2, 0.4);
+  }
+  70% {
+    box-shadow: 0 0 0 10px rgba(88, 204, 2, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(88, 204, 2, 0);
+  }
+}
+
+.animate-pop {
+  animation: popIn 0.25s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.animate-slide-up {
+  animation: slideUp 0.3s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+
